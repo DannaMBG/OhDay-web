@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OhDay - Tu agenda inteligente que se adapta a ti</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="#inicio" class="logo">
+                    <img src="img/logo.png" alt="OhDay Logo" class="logo-img">
+                    <span class="logo-text">OhDay</span>
+                </a>
+                <button class="menu-toggle" aria-label="Menú">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#que-es">Qué es</a></li>
+                    <li><a href="#como-funciona">Cómo funciona</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#planes">Planes</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                <button class="btn btn-primary btn-large">Descargar App</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 1. Sección Hero -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">OhDay: Tu agenda inteligente que se adapta a ti</h1>
+                <p class="hero-subtitle">Organiza tus actividades, reprograma tu día automáticamente y mantén el equilibrio entre estudio, trabajo y vida personal.</p>
+                <p class="hero-subtext">El primer gestor de actividades con reprogramación inteligente, rutinas flexibles y gamificación integrada.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">Descargar App</button>
+                    <button class="btn btn-secondary">Conoce cómo funciona</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="img/Prototipo/Inicio Web.png" alt="Vista principal de OhDay" class="hero-screenshot clickable-image" data-caption="Vista principal de OhDay">
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. Qué es OhDay -->
+    <section id="que-es" class="section what-is">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-lightbulb"></i> Qué es OhDay</h2>
+            <p class="section-intro">OhDay es un gestor inteligente de actividades diseñado para estudiantes y jóvenes profesionales que necesitan una agenda dinámica, flexible y adaptada a imprevistos.</p>
+            <p class="section-text">A diferencia de otras apps, OhDay no solo organiza tu día:</p>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-sync-alt"></i></div>
+                    <h3>Reprogramación automática inteligente</h3>
+                    <p>Si te atrasas, OhDay reorganiza tu agenda sin que tengas que mover todo manualmente.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-clipboard-list"></i></div>
+                    <h3>Clasificación flexible de tareas</h3>
+                    <p>Fijas, dependientes, repetitivas, con fecha límite o flexibles.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-clock"></i></div>
+                    <h3>Rutinas personalizadas</h3>
+                    <p>Para estudio, ejercicio, descanso, aprendizaje, etc.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-gamepad"></i></div>
+                    <h3>Gamificación integrada</h3>
+                    <p>Logros, puntos, niveles y estadísticas para aumentar motivación.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-calendar-alt"></i></div>
+                    <h3>Integración con calendarios</h3>
+                    <p>Sincronización con Google Calendar y Outlook.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-chart-bar"></i></div>
+                    <h3>Panel de estadísticas</h3>
+                    <p>Análisis semanal de productividad, tiempo invertido y hábitos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Cómo funciona -->
+    <section id="como-funciona" class="section how-works">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-robot"></i> Cómo funciona</h2>
+            <p class="section-intro">Funcionalidades principales que hacen de OhDay tu mejor aliado</p>
+            
+            <!-- Galería de capturas de pantalla -->
+            <div class="screenshots-gallery">
+                <div class="screenshot-item">
+                    <div class="screenshot-wrapper">
+                        <img src="img/Prototipo/Hoy web.png" alt="Vista del día en OhDay" class="screenshot-img clickable-image" data-caption="Vista del día - Organiza tus actividades diarias">
+                    </div>
+                    <p class="screenshot-caption">Vista del día</p>
+                </div>
+                <div class="screenshot-item">
+                    <div class="screenshot-wrapper">
+                        <img src="img/Prototipo/Semana web.png" alt="Vista semanal en OhDay" class="screenshot-img clickable-image" data-caption="Vista semanal - Planifica tu semana completa">
+                    </div>
+                    <p class="screenshot-caption">Vista semanal</p>
+                </div>
+                <div class="screenshot-item">
+                    <div class="screenshot-wrapper">
+                        <img src="img/Prototipo/Cambios web.png" alt="Reprogramación automática de tareas" class="screenshot-img clickable-image" data-caption="Reprogramación automática - La app reorganiza tu agenda inteligentemente">
+                    </div>
+                    <p class="screenshot-caption">Reprogramación automática</p>
+                </div>
+                <div class="screenshot-item">
+                    <div class="screenshot-wrapper">
+                        <img src="img/Prototipo/logros web.png" alt="Sistema de logros y gamificación" class="screenshot-img clickable-image" data-caption="Logros y gamificación - Motívate con puntos y recompensas">
+                    </div>
+                    <p class="screenshot-caption">Logros y gamificación</p>
+                </div>
+                <div class="screenshot-item">
+                    <div class="screenshot-wrapper">
+                        <img src="img/Prototipo/Tarea nueva web.png" alt="Crear nueva tarea" class="screenshot-img clickable-image" data-caption="Crear tareas - Agrega y organiza tus actividades fácilmente">
+                    </div>
+                    <p class="screenshot-caption">Crear tareas</p>
+                </div>
+            </div>
+
+            <div class="functionality-list">
+                <div class="functionality-item">
+                    <div class="functionality-number"><i class="fas fa-check"></i></div>
+                    <div class="functionality-content">
+                        <h3>Reprogramación automática inteligente</h3>
+                        <p>Si no alcanzas una tarea, la app reorganiza tu agenda respetando prioridades, duración y límites diarios. Ajuste automático del horario en tiempo real con detección de retrasos o cambios en el día.</p>
+                    </div>
+                </div>
+                <div class="functionality-item">
+                    <div class="functionality-number"><i class="fas fa-check"></i></div>
+                    <div class="functionality-content">
+                        <h3>Clasificación flexible de tareas</h3>
+                        <p>Crea actividades fijas, repetitivas, dependientes, con fecha límite o totalmente flexibles. Total control sobre cómo se organizan tus tareas.</p>
+                    </div>
+                </div>
+                <div class="functionality-item">
+                    <div class="functionality-number"><i class="fas fa-check"></i></div>
+                    <div class="functionality-content">
+                        <h3>Rutinas personalizadas</h3>
+                        <p>Diseña rutinas diarias, semanales o personalizadas para estudio, ejercicio, descanso, aprendizaje, etc. Seguimiento automático del progreso.</p>
+                    </div>
+                </div>
+                <div class="functionality-item">
+                    <div class="functionality-number"><i class="fas fa-check"></i></div>
+                    <div class="functionality-content">
+                        <h3>Gamificación y motivación</h3>
+                        <p>Sistema de puntos, logros, niveles y estadísticas. Reportes semanales con metas cumplidas y recompensas al mantener constancia.</p>
+                    </div>
+                </div>
+                <div class="functionality-item">
+                    <div class="functionality-number"><i class="fas fa-check"></i></div>
+                    <div class="functionality-content">
+                        <h3>Integración con calendarios externos</h3>
+                        <p>Sincronización con Google Calendar y Outlook. Importación automática de eventos y vista unificada del día y de la semana.</p>
+                    </div>
+                </div>
+                <div class="functionality-item">
+                    <div class="functionality-number"><i class="fas fa-check"></i></div>
+                    <div class="functionality-content">
+                        <h3>Panel de estadísticas</h3>
+                        <p>Análisis semanal de productividad, tiempo invertido y hábitos. Visualiza tu progreso y mejora continua.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Por qué OhDay es diferente -->
+    <section class="section why-different">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-bullseye"></i> Por qué OhDay es diferente</h2>
+            <p class="section-intro">El mercado está lleno de apps de productividad… pero ninguna combina:</p>
+            <p class="highlight-text">Agenda real + IA + gamificación + reprogramación automática.</p>
+            <div class="comparison-grid">
+                <div class="comparison-item">
+                    <h4>Google Calendar</h4>
+                    <p><i class="fas fa-times"></i> No reprograma automáticamente</p>
+                </div>
+                <div class="comparison-item">
+                    <h4>Todoist, Notion, Trello</h4>
+                    <p><i class="fas fa-times"></i> Requieren mover manualmente las tareas</p>
+                </div>
+                <div class="comparison-item">
+                    <h4>Habitica, Finch</h4>
+                    <p><i class="fas fa-times"></i> Gamifican hábitos, pero no tu agenda real</p>
+                </div>
+                <div class="comparison-item highlight">
+                    <h4>OhDay</h4>
+                    <p><i class="fas fa-check-circle"></i> Une todo en un solo lugar</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Servicios Específicos -->
+    <section id="servicios" class="section services">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-cog"></i> Nuestros Servicios</h2>
+            <p class="section-intro">Funcionalidades diseñadas para transformar tu día a día</p>
+            
+            <!-- Servicio 1: Reprogramación Inteligente con IA -->
+            <div class="service-card">
+                <div class="service-header">
+                    <div class="service-icon" style="color: #FF8C00;"><i class="fas fa-brain"></i></div>
+                    <h3>Reprogramación Inteligente con IA</h3>
+                </div>
+                <div class="service-image-wrapper">
+                    <img src="img/Prototipo/Cambios web.png" alt="Reprogramación automática de tareas" class="service-screenshot clickable-image" data-caption="Reprogramación automática de tareas">
+                </div>
+                <div class="service-content">
+                    <div class="service-features">
+                        <h4>Características</h4>
+                        <ul>
+                            <li>Ajuste automático del horario en tiempo real</li>
+                            <li>Respeto de prioridades, duración y límites diarios</li>
+                            <li>Detección de retrasos o cambios en el día</li>
+                        </ul>
+                    </div>
+                    <div class="service-benefits">
+                        <h4>Beneficios</h4>
+                        <ul>
+                            <li>El usuario mantiene control sin tener que reorganizar nada</li>
+                            <li>Se adapta a imprevistos reales</li>
+                            <li>Reduce la presión de "no cumplir" con el día planeado</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Servicio 2: Rutinas y Gestión de Hábitos -->
+            <div class="service-card">
+                <div class="service-header">
+                    <div class="service-icon" style="color: #4169E1;"><i class="fas fa-tasks"></i></div>
+                    <h3>Rutinas y Gestión de Hábitos</h3>
+                </div>
+                <div class="service-content">
+                    <div class="service-features">
+                        <h4>Características</h4>
+                        <ul>
+                            <li>Crear rutinas diarias, semanales o personalizadas</li>
+                            <li>Seguimiento automático del progreso</li>
+                            <li>Opciones para incluir descanso, hobbies y autocuidado</li>
+                        </ul>
+                    </div>
+                    <div class="service-benefits">
+                        <h4>Beneficios</h4>
+                        <ul>
+                            <li>Ayuda a construir disciplina y hábitos saludables</li>
+                            <li>Promueve equilibrio personal y profesional</li>
+                            <li>Hace la organización más humana, no solo productiva</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Servicio 3: Gamificación y Motivación -->
+            <div class="service-card">
+                <div class="service-header">
+                    <div class="service-icon" style="color: #9370DB;"><i class="fas fa-trophy"></i></div>
+                    <h3>Gamificación y Motivación</h3>
+                </div>
+                <div class="service-content">
+                    <div class="service-features">
+                        <h4>Características</h4>
+                        <ul>
+                            <li>Sistema de puntos y logros</li>
+                            <li>Reportes semanales con metas cumplidas</li>
+                            <li>Recompensas al mantener constancia</li>
+                        </ul>
+                    </div>
+                    <div class="service-benefits">
+                        <h4>Beneficios</h4>
+                        <ul>
+                            <li>Motiva al usuario a continuar sus rutinas</li>
+                            <li>Hace la organización más divertida y ligera</li>
+                            <li>Refuerza hábitos positivos a largo plazo</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Servicio 4: Integración con Calendarios -->
+            <div class="service-card">
+                <div class="service-header">
+                    <div class="service-icon" style="color: #32CD32;"><i class="fas fa-calendar-alt"></i></div>
+                    <h3>Integración con Calendarios</h3>
+                </div>
+                <div class="service-content">
+                    <div class="service-features">
+                        <h4>Características</h4>
+                        <ul>
+                            <li>Sincronización con Google Calendar y Outlook</li>
+                            <li>Importación automática de eventos</li>
+                            <li>Vista unificada del día y de la semana</li>
+                        </ul>
+                    </div>
+                    <div class="service-benefits">
+                        <h4>Beneficios</h4>
+                        <ul>
+                            <li>Evita duplicar tareas o eventos</li>
+                            <li>Facilita planificar encima del calendario real del usuario</li>
+                            <li>Ofrece una experiencia completa sin usar varias apps</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Servicio 5: Plantillas y Biblioteca de Rutinas -->
+            <div class="service-card">
+                <div class="service-header">
+                    <div class="service-icon" style="color: #8B4513;"><i class="fas fa-layer-group"></i></div>
+                    <h3>Plantillas y Biblioteca de Rutinas</h3>
+                </div>
+                <div class="service-content">
+                    <div class="service-features">
+                        <h4>Características</h4>
+                        <ul>
+                            <li>Plantillas de estudio, gimnasio, organización semanal, descansos, etc.</li>
+                            <li>Plantillas premium creadas por la comunidad</li>
+                            <li>Marketplace con contenido adicional</li>
+                        </ul>
+                    </div>
+                    <div class="service-benefits">
+                        <h4>Beneficios</h4>
+                        <ul>
+                            <li>El usuario empieza rápido sin tener que diseñar su rutina desde cero</li>
+                            <li>Fomenta inspiración y buenas prácticas</li>
+                            <li>Amplía las posibilidades con opciones de pago</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Vista del producto móvil -->
+    <section class="section product-showcase">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-mobile-alt"></i> Disponible en todos tus dispositivos</h2>
+            <p class="section-intro">OhDay se adapta a tu estilo de vida, ya sea en tu computadora o en tu móvil</p>
+            <div class="mobile-screenshots">
+                <div class="mobile-screenshot-item">
+                    <img src="img/Prototipo/Inicio movil.png" alt="Inicio móvil OhDay" class="mobile-img clickable-image" data-caption="Inicio móvil">
+                    <p class="screenshot-caption">Inicio</p>
+                </div>
+                <div class="mobile-screenshot-item">
+                    <img src="img/Prototipo/Hoy movil.png" alt="Vista del día móvil" class="mobile-img clickable-image" data-caption="Vista del día móvil">
+                    <p class="screenshot-caption">Vista del día</p>
+                </div>
+                <div class="mobile-screenshot-item">
+                    <img src="img/Prototipo/Semana movil.png" alt="Vista semanal móvil" class="mobile-img clickable-image" data-caption="Vista semanal móvil">
+                    <p class="screenshot-caption">Vista semanal</p>
+                </div>
+                <div class="mobile-screenshot-item">
+                    <img src="img/Prototipo/logros movil.png" alt="Logros móvil" class="mobile-img clickable-image" data-caption="Logros móvil">
+                    <p class="screenshot-caption">Logros</p>
+                </div>
+                <div class="mobile-screenshot-item">
+                    <img src="img/Prototipo/configuracion movil.png" alt="Configuración móvil" class="mobile-img clickable-image" data-caption="Configuración móvil">
+                    <p class="screenshot-caption">Configuración</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Para quién es OhDay -->
+    <section class="section target-audience">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-users"></i> Para quién es OhDay</h2>
+            <div class="audience-grid">
+                <div class="audience-card">
+                    <div class="audience-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>Estudiantes</h3>
+                    <p>Que manejan horarios flexibles y rutinas cambiantes.</p>
+                </div>
+                <div class="audience-card">
+                    <div class="audience-icon"><i class="fas fa-briefcase"></i></div>
+                    <h3>Jóvenes profesionales</h3>
+                    <p>Con múltiples responsabilidades.</p>
+                </div>
+                <div class="audience-card">
+                    <div class="audience-icon"><i class="fas fa-brain"></i></div>
+                    <h3>Personas multitarea</h3>
+                    <p>Que necesitan una agenda dinámica.</p>
+                </div>
+                <div class="audience-card">
+                    <div class="audience-icon"><i class="fas fa-heart" style="color: #FFD700;"></i></div>
+                    <h3>Buscadores de equilibrio</h3>
+                    <p>Que buscan equilibrio entre productividad y bienestar personal.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Beneficios para el usuario -->
+    <section class="section benefits">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-chart-line"></i> Beneficios para el usuario</h2>
+            <p class="section-intro">Lo que OhDay hace por ti</p>
+            <div class="benefits-list">
+                <div class="benefit-item">
+                    <span class="benefit-check"><i class="fas fa-check"></i></span>
+                    <p><strong>Ahorra tiempo</strong> al evitar reorganizar tareas manualmente.</p>
+                </div>
+                <div class="benefit-item">
+                    <span class="benefit-check"><i class="fas fa-check"></i></span>
+                    <p><strong>Reduce estrés y frustración</strong> por cambios inesperados en el día.</p>
+                </div>
+                <div class="benefit-item">
+                    <span class="benefit-check"><i class="fas fa-check"></i></span>
+                    <p><strong>Mantiene equilibrio</strong> entre productividad, estudio, hobbies y autocuidado.</p>
+                </div>
+                <div class="benefit-item">
+                    <span class="benefit-check"><i class="fas fa-check"></i></span>
+                    <p><strong>Genera constancia</strong> con mecánicas de motivación.</p>
+                </div>
+                <div class="benefit-item">
+                    <span class="benefit-check"><i class="fas fa-check"></i></span>
+                    <p><strong>Facilita la gestión diaria</strong> gracias a una interfaz clara, intuitiva y flexible.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Planes y Precios -->
+    <section id="planes" class="section pricing">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-tools"></i> Planes y Precios</h2>
+            <p class="section-intro">Modelo freemium + SaaS</p>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Free</h3>
+                    <div class="price">$0<span> MXN/mes</span></div>
+                    <p class="price-subtitle">Funcionalidades básicas</p>
+                    <ul class="pricing-features">
+                        <li>✓ Reprogramación básica</li>
+                        <li>✓ Tareas ilimitadas</li>
+                        <li>✓ Estadísticas simples</li>
+                        <li>✓ Rutinas limitadas</li>
+                        <li>✓ Plantillas gratuitas</li>
+                    </ul>
+                    <button class="btn btn-outline">Comenzar gratis</button>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="badge">Popular</div>
+                    <h3>Plus</h3>
+                    <div class="price">$73<span> MXN/mes</span></div>
+                    <p class="price-subtitle">Para usuarios activos</p>
+                    <div class="price-annual">
+                        <span class="annual-price">$549 MXN/año</span>
+                        <span class="annual-savings">Ahorra 37%</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ Reprogramación avanzada</li>
+                        <li>✓ Rutinas ilimitadas</li>
+                        <li>✓ Integraciones con calendarios</li>
+                        <li>✓ Estadísticas detalladas</li>
+                        <li>✓ Plantillas premium</li>
+                    </ul>
+                    <button class="btn btn-primary">Elegir Plus</button>
+                </div>
+                <div class="pricing-card">
+                    <h3>Pro</h3>
+                    <div class="price">$146<span> MXN/mes</span></div>
+                    <p class="price-subtitle">Para profesionales</p>
+                    <div class="price-annual">
+                        <span class="annual-price">$1,098 MXN/año</span>
+                        <span class="annual-savings">Ahorra 37%</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ Automatizaciones</li>
+                        <li>✓ Gamificación avanzada</li>
+                        <li>✓ Estadísticas completas</li>
+                        <li>✓ IA y copiloto inteligente</li>
+                        <li>✓ Todo lo de Plus</li>
+                    </ul>
+                    <button class="btn btn-outline">Elegir Pro</button>
+                </div>
+                <div class="pricing-card">
+                    <h3>Teams</h3>
+                    <div class="price">$82<span> MXN/usuario/mes</span></div>
+                    <p class="price-subtitle">Para grupos y empresas</p>
+                    <ul class="pricing-features">
+                        <li>✓ Todo lo de Pro</li>
+                        <li>✓ Panel administrativo</li>
+                        <li>✓ Integraciones para grupos</li>
+                        <li>✓ Colaboración en equipo</li>
+                        <li>✓ Soporte prioritario</li>
+                    </ul>
+                    <button class="btn btn-outline">Contactar ventas</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Datos del mercado -->
+    <section class="section market-data">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-globe"></i> Datos del mercado</h2>
+            <p class="section-intro">Según Business Research Insights, Fortune y Grand View Research:</p>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">$29.56B</div>
+                    <p>Mercado de apps de productividad para 2035</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">9.2% - 14%</div>
+                    <p>Crecimiento anual del mercado</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">IA + Bienestar</div>
+                    <p>Tendencias principales del sector</p>
+                </div>
+            </div>
+            <p class="section-text">OhDay encaja directamente en estas tendencias: IA predictiva, balance vida-trabajo, rutinas de bienestar y soluciones móviles en la nube.</p>
+        </div>
+    </section>
+
+    <!-- 9. Modelo de negocio -->
+    <section class="section business-model">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-chart-line"></i> Modelo de negocio</h2>
+            <p class="section-intro">OhDay funciona bajo un modelo híbrido:</p>
+            <div class="model-grid">
+                <div class="model-card">
+                    <h3>Freemium</h3>
+                    <p>Para crecer rápido y adquirir usuarios</p>
+                </div>
+                <div class="model-card">
+                    <h3>Suscripción Premium</h3>
+                    <p>Para funciones avanzadas y monetización</p>
+                </div>
+                <div class="model-card">
+                    <h3>Marketplace</h3>
+                    <p>Plantillas y extensiones (comisión 30%)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. Financiamiento y Tracción -->
+    <section class="section financing">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-dollar-sign"></i> Financiamiento y Tracción</h2>
+            <p class="section-intro">Proyectos de inversión</p>
+            <div class="financing-grid">
+                <div class="financing-card">
+                    <h3>Inversión inicial</h3>
+                    <div class="financing-amount">$40,000 - $50,000 USD</div>
+                </div>
+                <div class="financing-card">
+                    <h3>Punto de equilibrio</h3>
+                    <div class="financing-amount">915 usuarios premium/año</div>
+                </div>
+                <div class="financing-card">
+                    <h3>ROI Año 2</h3>
+                    <div class="financing-amount positive">+145%</div>
+                </div>
+                <div class="financing-card">
+                    <h3>ROI Año 3</h3>
+                    <div class="financing-amount positive">+300%</div>
+                </div>
+            </div>
+            <p class="section-text">Perfecto para inversionistas en etapa temprana.</p>
+        </div>
+    </section>
+
+    <!-- 11. Tecnología e IA -->
+    <section class="section technology">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-brain"></i> Tecnología e IA</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <h4>Algoritmos de reprogramación inteligente</h4>
+                </div>
+                <div class="tech-item">
+                    <h4>Análisis de hábitos</h4>
+                </div>
+                <div class="tech-item">
+                    <h4>IA para predicción de tiempo y prioridades</h4>
+                </div>
+                <div class="tech-item">
+                    <h4>Sincronización en la nube</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 12. Privacidad y Seguridad -->
+    <section class="section privacy">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-lock"></i> Privacidad y Seguridad</h2>
+            <p class="section-intro">Cumple con las normativas más estrictas:</p>
+            <div class="compliance-grid">
+                <div class="compliance-item">GDPR</div>
+                <div class="compliance-item">Ley Federal de Protección de Datos Personales (México)</div>
+                <div class="compliance-item">Normativas de App Store & Play Store</div>
+            </div>
+            <p class="section-text">Tus datos siempre permanecen seguros y privados.</p>
+        </div>
+    </section>
+
+    <!-- 13. CTA final -->
+    <section id="contacto" class="section cta-final">
+        <div class="container">
+            <h2 class="cta-title">Empieza hoy una vida más organizada y equilibrada</h2>
+            <p class="cta-subtitle">OhDay convierte tu día en un plan flexible, realista y motivador.</p>
+            <div class="cta-buttons">
+                <button class="btn btn-primary btn-large">Descargar App</button>
+                <button class="btn btn-secondary btn-large">Ver planes</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="img/logo.png" alt="OhDay Logo" class="footer-logo">
+                    <p>Tu agenda inteligente que se adapta a ti</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Producto</h4>
+                    <ul>
+                        <li><a href="#que-es">Qué es OhDay</a></li>
+                        <li><a href="#como-funciona">Cómo funciona</a></li>
+                        <li><a href="#planes">Planes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacidad</a></li>
+                        <li><a href="#">Términos</a></li>
+                        <li><a href="#">Cookies</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><a href="#">Soporte</a></li>
+                        <li><a href="#">Inversores</a></li>
+                        <li><a href="#">Prensa</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 OhDay. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal para imágenes -->
+    <div id="imageModal" class="modal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div class="modal-caption" id="modalCaption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
